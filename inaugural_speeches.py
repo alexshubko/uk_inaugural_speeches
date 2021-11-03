@@ -42,3 +42,4 @@ with open("./top10-tfidf.csv", "w") as output:
     output.write(tfidf_df.to_csv(index=False))
 
 # TOADD: lemmatization step using Stanza (https://stanfordnlp.github.io/stanza/lemma.html)
+# compare sentence splitter in stanza & lang-uk
