@@ -40,3 +40,5 @@ tfidf_df = tfidf_df.sort_values(by=['inaugural_speech','tfidf'], ascending=[True
 
 with open("./top10-tfidf.csv", "w") as output:
     output.write(tfidf_df.to_csv(index=False))
+
+# TOADD: lemmatization step using Stanza (https://stanfordnlp.github.io/stanza/lemma.html)
